@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'amble';
+    src:url(../fonts/Amble-Regular-webfont.ttf) format('truetype');
+}
+
+	/*TABLES*/
+	
+	
+	#content table{
+		margin:0 auto;
+		border-bottom:0px;
+		border-top:0px;
+		border-collapse:collapse;
+		width:100%;
+		text-align:center;
+		padding:4px;
+		}
+	#content tr{
+		padding:2px;
+		width:100%;
+		color:black;
+		font-family:amble;
+		font-size:12px;
+		}
+	
+	tr input{
+		padding:1px;
+		margin:2px;
+		}
+		
+	tr:nth-child(odd){
+		background:rgba(243, 243, 243, 0.89);
+		}
+	
+	tr:nth-child(even){
+		background:white;
+		}
+		
+	#content tr td{
+		font-family:amble;
+		border-right:1px solid white;
+		margin:1px;
+		}
+	th{
+		border-right:1px solid white;
+		color:white; 
+		font-family:Trebuchet MS;
+		background:-webkit-linear-gradient(rgba(110, 110, 255, 0.81),rgb(84, 84, 255));
+		background:-moz-linear-gradient(rgba(110, 110, 255, 0.81),rgb(84, 84, 255));
+		background:-o-linear-gradient(rgba(110, 110, 255, 0.81),rgb(84, 84, 255));
+		}
+
+	
+	/*TABLES*/
